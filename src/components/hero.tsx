@@ -1,10 +1,10 @@
 export default function Hero() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <h1 className="text-6xl tracking-tight font-serif">Leon Ekelund is a fullstack developer who<br />
-        loves code, sound, and pixels,   <br />usually all at once.</h1>
-
+    <div className="flex flex-col justify-start pt-[20vh] min-h-screen max-w-3xl mx-auto px-8">
+      <h1 className="text-6xl leading-snug tracking-tight">
+        <span className="font-bold">Leon Ekelund</span>
+        {" "}is a fullstack developer who loves code, sound, and pixels, usually all at once.
+      </h1>
     </div>
   )
-
 }
